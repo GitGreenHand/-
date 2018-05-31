@@ -1,0 +1,23 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- 头开始 -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<div class="logo">
+						<img src="assets/img/logo2.png" height="20px" width="100px"
+							alt="Realm Admin Template">
+					</div>
+					<div class="top-menu visible-desktop">
+						<ul class="pull-left">
+							<li><a> <i class="icon-globe"></i> 欢迎使用零部件管理系统
+							</a></li>
+						</ul>
+						<ul class="pull-right">
+							<li><a href="login.jsp"><i class="icon-off"></i> Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		

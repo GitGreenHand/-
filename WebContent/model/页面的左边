@@ -1,0 +1,124 @@
+</head>
+<body>
+	<div id="wrap">
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<div class="logo">
+						<img src="assets/img/logo2.png" height="20px" width="100px"
+							alt="Realm Admin Template">
+					</div>
+					<div class="top-menu visible-desktop">
+						<ul class="pull-left">
+							<li><a> <i class="icon-globe"></i> 欢迎使用零部件管理系统
+							</a></li>
+						</ul>
+						<ul class="pull-right">
+							<li><a href="login.jsp"><i class="icon-off"></i> Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<!-- 侧边的目录开始-->
+			<div class="sidebar-nav nav-collapse collapse">
+				<div class="user_side clearfix">
+					<img src="assets/img/odinn.jpg" alt="没找到用户的图片">
+					<!-- 获取当前用户的姓名 -->
+					<div>
+						<h5>当前用户：${sessionScope.id}</h5>
+					</div>
+					<!-- 出理用户的个人界面 -->
+					<div>
+						<a href="personDetail.jsp"><i class="icon-cog"></i> 个人主页</a>
+					</div>
+				</div>
+				<div class="accordion" id="accordion2">
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle active b_F79999" href="main.jsp"><i
+								class="icon-dashboard"> </i> <span>主页</span></a>
+						</div>
+					</div>
+					<!-- 一组数据开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_C3F7A7 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse1"> <i class="icon-magic"> <!-- 第一功能面板 -->
+							</i> <span>零件管理</span></a>
+						</div>
+						<!--第一功能面板的子功能目录开始  -->
+						<div id="collapse1" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<!--第一个功能的链接  -->
+								<a class="accordion-toggle" href="selectPart.jsp"> <i
+									class="icon-star">查询零件信息 </i>
+								</a>
+								<!--第二个功能的链接  -->
+								<a class="accordion-toggle" href="#"> <i
+									class="icon-list-alt"> 添加零件信息 </i>
+								</a>
+								<!--第三个功能的链接  -->
+								<a class="accordion-toggle" href="#"> <i class="icon-table">
+								</i> 修改零件信息
+								</a>
+								<!--第四个功能的链接  -->
+								<a class="accordion-toggle" href="#"> <i class="icon-circle">
+								</i> 删除零件信息
+								</a>
+							</div>
+						</div>
+						<!--第一功能面板的子功能目录结束 -->
+					</div>
+					<!-- 一组数据结束 -->
+					<!-- 第二组下拉面板开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_9FDDF6 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse2"> <!-- 第二个功能面板 --> <i class="icon-reorder"></i>
+								<span>仓库管理</span></a>
+						</div>
+						<div id="collapse2" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<a class="accordion-toggle" href="#"> <i class="icon-rss"></i>
+									入库管理
+								</a> <a class="accordion-toggle" href="#"> <i
+									class="icon-calendar"></i> 出库管理
+								</a> <a class="accordion-toggle" href="#"> <i
+									class="icon-picture"></i> 仓库信息查询
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- 第二组下拉面板结束 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_F6F1A2" href="#"><i
+								class="icon-tasks"> </i> <span>Tasks</span></a>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_C1F8A9" href="#"> <i
+								class="icon-bar-chart"></i> <span>Analytics</span></a>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_9FDDF6" href="#"> <i
+								class="icon-bullhorn"></i> <span>Support Tickets</span></a>
+						</div>
+					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_F5C294" href="#"> <i
+								class="icon-user"></i> <span>Users</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 侧边的目录结束-->

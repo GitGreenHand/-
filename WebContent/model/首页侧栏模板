@@ -1,0 +1,140 @@
+<!-- 一组数据开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_C3F7A7 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse1"> <i class="icon-magic"> <!-- 第一功能面板 -->
+							</i> <span>零件管理</span></a>
+						</div>
+						<!--第一功能面板的子功能目录开始  -->
+						<div id="collapse1" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<!--第一个功能的链接  -->
+								<a class="accordion-toggle" href="selectPart.jsp"> 
+								<i class="icon-star">查询零件信息
+								</i>
+								</a>
+								<!--第二个功能的链接  -->
+								<a class="accordion-toggle" href="addPart.jsp">
+								 <i class="icon-list-alt">
+								添加零件信息
+									 </i> 
+								</a>
+								<!--第三个功能的链接  -->
+								<!-- <a class="accordion-toggle" href="#"> <i class="icon-table">
+								</i> 修改零件信息
+								</a>
+								第四个功能的链接 
+								<a class="accordion-toggle" href="#"> <i class="icon-circle">
+								</i> 删除零件信息
+								</a> -->
+							</div>
+						</div>
+						<!--第一功能面板的子功能目录结束 -->
+					</div>
+					<!-- 一组数据结束 -->
+					<!-- 第二组下拉面板开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_9FDDF6 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse2"> <!-- 第二个功能面板 --> <i class="icon-reorder"></i>
+								<span>仓库管理</span></a>
+						</div>
+						<div id="collapse2" class="accordion-body collapse">
+							<div class="accordion-inner">
+								
+								<a class="accordion-toggle" href="selectWarehouse.jsp"> <i
+									class="icon-picture"></i> 仓库信息查询
+								</a>
+								<a class="accordion-toggle" href="addWarehouse.jsp"> <i
+									class="icon-picture"></i> 添加仓库信息
+								</a>
+								<!-- <a class="accordion-toggle" href="#"> 
+								<i class="icon-rss"></i>修改仓库信息
+								</a> 
+								<a class="accordion-toggle" href="#"> <i
+									class="icon-calendar"></i> 删除仓库信息
+								</a>  -->
+							</div>
+						</div>
+					</div>
+					<!-- 第二组下拉面板结束 -->
+					<!-- 第三组下拉面板开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_9FDDF6 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse3"> <!-- 第二个功能面板 --> <i class="icon-reorder"></i>
+								<span>员工管理</span></a>
+						</div>
+						<div id="collapse3" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<a class="accordion-toggle" href="addStaff.jsp"> 
+								<i class="icon-rss"></i>
+									添加员工信息
+								</a> <a class="accordion-toggle" href="selectStaff.jsp"> <i
+									class="icon-calendar"></i> 查询员工信息
+								</a> 
+								<!-- <a class="accordion-toggle" href="#"> <i
+									class="icon-picture"></i> 修改员工信息
+								</a>
+								<a class="accordion-toggle" href="#"> <i
+									class="icon-picture"></i>删除员工信息
+								</a> -->
+								
+							</div>
+						</div>
+					</div>
+					<!-- 第三组下拉面板结束 -->
+					<!-- 第四组下拉面板开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_9FDDF6 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse5"> <!-- 第二个功能面板 --> <i class="icon-reorder"></i>
+								<span>商品提供商管理</span></a>
+						</div>
+						<div id="collapse5" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<a class="accordion-toggle" href="addOffer.jsp"> 
+								<i class="icon-rss"></i>
+									添加商品提供商
+								</a> <a class="accordion-toggle" href="selectOffer.jsp"> <i
+									class="icon-calendar"></i> 查询提供商信息
+								</a> 
+								<!-- <a class="accordion-toggle" href="updateOffer.jsp"> <i
+									class="icon-picture"></i> 修改提供商信息
+								</a>
+								<a class="accordion-toggle" href="deleteOffer.jsp"> <i
+									class="icon-picture"></i>删除提供商信息
+								</a> -->
+								
+							</div>
+						</div>
+					</div>
+					<!-- 第四组下拉面板结束 -->
+					<!-- 第五组下拉面板开始 -->
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle b_9FDDF6 collapsed"
+								data-toggle="collapse" data-parent="#accordion2"
+								href="#collapse4"> <!-- 第二个功能面板 --> <i class="icon-reorder"></i>
+								<span>库存管理</span></a>
+						</div>
+						<div id="collapse4" class="accordion-body collapse">
+							<div class="accordion-inner">
+								<a class="accordion-toggle" href="addStaff.jsp"> 
+								<i class="icon-rss"></i>
+									入库管理
+								</a> <a class="accordion-toggle" href="selectStaff.jsp"> <i
+									class="icon-calendar"></i> 出库管理
+								</a> 
+								<a class="accordion-toggle" href="#"> <i
+									class="icon-picture"></i> 库存相关信息
+								</a>
+								
+							</div>
+						</div>
+					</div>
+					<!-- 第五组下拉面板结束 -->

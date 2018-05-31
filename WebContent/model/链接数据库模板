@@ -1,0 +1,29 @@
+System.out.println("come  PartDAOImpl");
+		System.out.println("part:" + part);
+		try {
+			// 数据库乱码;
+			// 1链接数据库
+			conn = DatabaseJDBC.getConnection();
+			// 2 编写SQL语句
+			Sql = "insert into part values(?,?,?,?,?,?)";
+			// 3 调用方法
+
+			psmt = conn.prepareStatement(Sql);
+			psmt.setString(1, part.getPid());
+			psmt.setString(2, part.getPname());
+			psmt.setString(3, part.getPsp());
+			psmt.setString(4, "" + part.getPprice());
+			psmt.setString(5, part.getPoffer());
+			psmt.setString(6, part.getPtime());
+			psmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		// 4 提示
+		System.out.println("success！");
+		
+	private Connection conn = null;
+	private PreparedStatement psmt = null;
+	private ResultSet rs = null;
+	private String Sql = null;

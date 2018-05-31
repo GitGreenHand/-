@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>添加零件</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Bluth Company">
+<!-- title 的图标 -->
+<link rel="shortcut icon" href="assets/ico/favicon.html">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/theme.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/alertify.css" rel="stylesheet">
+<link href="http://fonts.useso.com/css?family=Open+Sans:400,700"
+	rel="stylesheet" type="text/css">
+<!-- title 的图标 -->
+<link rel="Favicon Icon" href="favicon.ico">

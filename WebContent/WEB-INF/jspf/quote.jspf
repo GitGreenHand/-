@@ -1,0 +1,14 @@
+﻿<%-- any content can be specified here e.g.: --%>
+
+<%@ page pageEncoding="UTF-8" %>
+ 
+<link rel="shortcut icon" href="assets/ico/favicon.html">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/theme.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/alertify.css" rel="stylesheet">
+<link href="http://fonts.useso.com/css?family=Open+Sans:400,700"
+	rel="stylesheet" type="text/css">
+<!-- title 的图标 -->
+<link rel="Favicon Icon" href="favicon.ico">
+
